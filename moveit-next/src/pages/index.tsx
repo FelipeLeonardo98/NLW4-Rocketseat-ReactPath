@@ -4,6 +4,7 @@ import { ExperienceBar } from "../components/ExperienceBar";
 import { Profile } from "../components/Profile";
 import styles from '../styles/pages/Home.module.css';
 import Head from 'next/head';
+import { ChallengueBox } from "../components/ChallengueBox";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
         </div>
 
         <div>
-
+          <ChallengueBox />
         </div>
       </section>
 
