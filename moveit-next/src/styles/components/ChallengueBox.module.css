@@ -1,5 +1,5 @@
 .challengueBoxContainer{
-    height: 100%;
+    height: 80%;
     background: var(--white);
     border-radius: 5px;
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
@@ -10,6 +10,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 20px;
+    box-shadow: 0px 3px 3px 3px;
 }
 
 .challengueNoActive{
